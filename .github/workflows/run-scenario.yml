@@ -17,6 +17,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Fetch tau2-bench data
+        run: |
+          git clone --depth 1 https://github.com/sierra-research/tau2-bench.git tau2-bench
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
