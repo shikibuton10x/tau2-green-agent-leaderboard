@@ -1,0 +1,69 @@
+{
+  "participants": {
+    "agent": "019bc6bb-fef9-74e3-a15e-63d61563d445"
+  },
+  "results": [
+    {
+      "domain": "retail",
+      "score": 0.0,
+      "max_score": 3,
+      "pass_rate": 0.0,
+      "task_rewards": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0
+      },
+      "time_used": 1.6484927719999973,
+      "summary": {
+        "pass_rate": 0.0,
+        "passed": 0,
+        "total": 3,
+        "time_used_sec": 1.6484927719999973
+      },
+      "config": {
+        "domain": "retail",
+        "num_tasks": 3,
+        "seed": 0,
+        "timeout_seconds": 300,
+        "max_steps": 50,
+        "retries": 2
+      },
+      "tasks": [
+        {
+          "task_id": "0",
+          "passed": false,
+          "reward": 0.0,
+          "duration_sec": 0.8556438409999885,
+          "turns": 0,
+          "tool_calls": 0,
+          "failure_reason": "unknown",
+          "error": "litellm.BadRequestError: OpenAIException - You didn't provide an API key. You need to provide your API key in an Authorization header using Bearer auth (i.e. Authorization: Bearer YOUR_KEY), or as the password field (with blank username) if you're accessing the API from your browser and are prompted for a username and password. You can obtain an API key from https://platform.openai.com/account/api-keys."
+        },
+        {
+          "task_id": "1",
+          "passed": false,
+          "reward": 0.0,
+          "duration_sec": 0.45682306700000197,
+          "turns": 0,
+          "tool_calls": 0,
+          "failure_reason": "unknown",
+          "error": "litellm.BadRequestError: OpenAIException - You didn't provide an API key. You need to provide your API key in an Authorization header using Bearer auth (i.e. Authorization: Bearer YOUR_KEY), or as the password field (with blank username) if you're accessing the API from your browser and are prompted for a username and password. You can obtain an API key from https://platform.openai.com/account/api-keys."
+        },
+        {
+          "task_id": "2",
+          "passed": false,
+          "reward": 0.0,
+          "duration_sec": 0.33105871299999023,
+          "turns": 0,
+          "tool_calls": 0,
+          "failure_reason": "unknown",
+          "error": "litellm.BadRequestError: OpenAIException - You didn't provide an API key. You need to provide your API key in an Authorization header using Bearer auth (i.e. Authorization: Bearer YOUR_KEY), or as the password field (with blank username) if you're accessing the API from your browser and are prompted for a username and password. You can obtain an API key from https://platform.openai.com/account/api-keys."
+        }
+      ],
+      "system": {
+        "green_agent_version": "0.1.0",
+        "tau2_bench_version": "0.2.1.dev0"
+      }
+    }
+  ]
+}
