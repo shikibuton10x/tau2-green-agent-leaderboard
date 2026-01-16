@@ -1,0 +1,16 @@
+[green_agent]
+agentbeats_id = "019bc599-2f7c-7e63-a0f7-af08f130aaa0"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
+
+[[participants]]
+agentbeats_id = "019bc6bb-fef9-74e3-a15e-63d61563d445"
+name = "agent"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
+
+[config]
+domain = "mock"
+num_tasks = 3
+seed = 0
+timeout_seconds = 300
+max_steps = 50
+retries = 2
